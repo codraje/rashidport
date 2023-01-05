@@ -3,12 +3,12 @@ import Image from 'next/image'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/boy2.png";
+import Rashid from "../public/boy2.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -61,7 +61,7 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-cyan-600 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image alt='' src={Rashid} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-yellow-800 flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image alt='' src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white ">
                 Beautiful Designs
               </h3>
@@ -96,7 +96,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-white">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-yellow-800 flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image alt='' src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-2 pb-10 dark:text-lime-100 ">
                Qualification
               </h3>
@@ -117,7 +117,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-yellow-800 flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image alt='' src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-lime-100">Consulting</h3>
               <p className="py-2 dark:text-white">
                 Are you interested in feedback for your current project? I can
